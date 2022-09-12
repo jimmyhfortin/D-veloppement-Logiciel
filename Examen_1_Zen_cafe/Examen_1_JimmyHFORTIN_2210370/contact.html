@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zen Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1>
+                <a id="title-h1" href="./index.html">ZEN CAFÉ</a>
+            </h1>
+            <ul>
+                <li><a href="./index.html">Accueil </a></li>
+                <li><a href="./location.html">Nous trouver</a></li>
+                <li><a class="active" href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form">
+        <div class="contact">
+            <h2>Une question ? Contactez-nous</h2>
+            <div class="separator-line form"></div>
+            <form action="/" method="GET">
+                <label for="fname">Nom Complet</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Courriel</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="question">Question :</label><br>
+                <textarea name="question" rows="3"></textarea>
+                <br><br>
+                <!-- <input type="submit" value="Submit"> -->
+                <a href="./" class="button answer">Soumettre</a>
+            </form>
+        </div>
+    </section>
+
+    <div class="footer abs">
+        <p>Copyright &#169;ZENCafé2021</p>
+    </div>
+</body>
+</html>
