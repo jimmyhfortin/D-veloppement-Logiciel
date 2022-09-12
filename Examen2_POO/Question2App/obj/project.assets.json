@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Question2Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Question2Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Question2Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Question2Lib/1.0.0": {
+      "type": "project",
+      "path": "../Question2Lib/Question2Lib.csproj",
+      "msbuildProject": "../Question2Lib/Question2Lib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Question2Lib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/jimmy/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
+      "projectName": "Question2App",
+      "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/Question2App.csproj",
+      "packagesPath": "/home/jimmy/.nuget/packages/",
+      "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/jimmy/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj": {
+              "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen2_2210370/Question2Lib/Question2Lib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
