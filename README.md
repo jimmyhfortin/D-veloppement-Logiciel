@@ -4,8 +4,8 @@
 
 ## Contenu
 
-#420-1B0-SW Programmation de base sur PC (75 h)
-#420-1B3-SW Développement de base sur PC (75 h)
+##420-1B0-SW Programmation de base sur PC (75 h)
+##420-1B3-SW Développement de base sur PC (75 h)
 #201-0Q3-SW Outil Mathématiques (75h)
 #420-2B0-SW Programmation orientée objet sur PC (90 h) (PR 420-1B0-SW)
 #420-1B2-SW Développement avec base de données (75 h) (PR 420-1B3-SW)
