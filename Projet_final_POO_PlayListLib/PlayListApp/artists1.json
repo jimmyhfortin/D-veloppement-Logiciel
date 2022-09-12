@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Name": "Metallica",
+    "Website": "www.metallica.com"
+  },
+  {
+    "Id": 2,
+    "Name": "Iron Maiden",
+    "Website": "www.ironmaiden.com"
+  },
+  {
+    "Id": 3,
+    "Name": "Dumas",
+    "Website": null
+  },
+  {
+    "Id": 4,
+    "Name": "Paul Plamondon",
+    "Website": null
+  }
+]

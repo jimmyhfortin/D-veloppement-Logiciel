@@ -1,0 +1,178 @@
+[
+  {
+    "Id": 1,
+    "Title": "Enter Sandman",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 0,
+      "Seconds": 331,
+      "TotalSeconds": 331
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Metallica",
+      "Website": "www.metallica.com"
+    }
+  },
+  {
+    "Id": 2,
+    "Title": "Sad But True",
+    "Genre": "Metal",
+    "Length": {
+      "Hours": 0,
+      "Minutes": 5,
+      "Seconds": 24,
+      "TotalSeconds": 324
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Metallica",
+      "Website": "www.metallica.com"
+    }
+  },
+  {
+    "Id": 3,
+    "Title": "The Uniforgiven",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 47,
+      "TotalSeconds": 227
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Metallica",
+      "Website": "www.metallica.com"
+    }
+  },
+  {
+    "Id": 4,
+    "Title": "Of Wolf and Man",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 4,
+      "Seconds": 16,
+      "TotalSeconds": 256
+    },
+    "Artist": {
+      "Id": 1,
+      "Name": "Metallica",
+      "Website": "www.metallica.com"
+    }
+  },
+  {
+    "Id": 5,
+    "Title": "Caught Somewhere in Time",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 7,
+      "Seconds": 27,
+      "TotalSeconds": 447
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Iron Maiden",
+      "Website": "www.ironmaiden.com"
+    }
+  },
+  {
+    "Id": 6,
+    "Title": "Wasted Years",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 5,
+      "Seconds": 9,
+      "TotalSeconds": 309
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Iron Maiden",
+      "Website": "www.ironmaiden.com"
+    }
+  },
+  {
+    "Id": 7,
+    "Title": "Sea of Madness",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 52,
+      "TotalSeconds": 232
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Iron Maiden",
+      "Website": "www.ironmaiden.com"
+    }
+  },
+  {
+    "Id": 8,
+    "Title": "The Loneliness of the Long Distance Runner",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 6,
+      "Seconds": 33,
+      "TotalSeconds": 393
+    },
+    "Artist": {
+      "Id": 2,
+      "Name": "Iron Maiden",
+      "Website": "www.ironmaiden.com"
+    }
+  },
+  {
+    "Id": 9,
+    "Title": "J\u0027erre",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 2,
+      "Seconds": 48,
+      "TotalSeconds": 168
+    },
+    "Artist": {
+      "Id": 3,
+      "Name": "Dumas",
+      "Website": null
+    }
+  },
+  {
+    "Id": 10,
+    "Title": "Ne me dis pas",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 23,
+      "TotalSeconds": 203
+    },
+    "Artist": {
+      "Id": 3,
+      "Name": "Dumas",
+      "Website": null
+    }
+  },
+  {
+    "Id": 11,
+    "Title": "Alors Alors",
+    "Genre": null,
+    "Length": {
+      "Hours": 0,
+      "Minutes": 3,
+      "Seconds": 12,
+      "TotalSeconds": 192
+    },
+    "Artist": {
+      "Id": 3,
+      "Name": "Dumas",
+      "Website": null
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PlayListApp/1.0.0": {
+        "dependencies": {
+          "DataRepoLib": "1.0.0",
+          "PlayListLib": "1.0.0"
+        },
+        "runtime": {
+          "PlayListApp.dll": {}
+        }
+      },
+      "DataRepoLib/1.0.0": {
+        "dependencies": {
+          "PlayListLib": "1.0.0"
+        },
+        "runtime": {
+          "DataRepoLib.dll": {}
+        }
+      },
+      "PlayListLib/1.0.0": {
+        "runtime": {
+          "PlayListLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayListApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataRepoLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PlayListLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

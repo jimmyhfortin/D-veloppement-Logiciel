@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayListLib", "PlayListLib\PlayListLib.csproj", "{11856CD9-38E8-450C-AE89-EAC6F75FA6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRepoLib", "DataRepoLib\DataRepoLib.csproj", "{93543220-2163-4B2B-B1BE-AAD63C596031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayListApp", "PlayListApp\PlayListApp.csproj", "{FD332D23-48DD-4256-8D06-D7814CC5839D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11856CD9-38E8-450C-AE89-EAC6F75FA6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11856CD9-38E8-450C-AE89-EAC6F75FA6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11856CD9-38E8-450C-AE89-EAC6F75FA6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11856CD9-38E8-450C-AE89-EAC6F75FA6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93543220-2163-4B2B-B1BE-AAD63C596031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93543220-2163-4B2B-B1BE-AAD63C596031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93543220-2163-4B2B-B1BE-AAD63C596031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93543220-2163-4B2B-B1BE-AAD63C596031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD332D23-48DD-4256-8D06-D7814CC5839D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD332D23-48DD-4256-8D06-D7814CC5839D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD332D23-48DD-4256-8D06-D7814CC5839D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD332D23-48DD-4256-8D06-D7814CC5839D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

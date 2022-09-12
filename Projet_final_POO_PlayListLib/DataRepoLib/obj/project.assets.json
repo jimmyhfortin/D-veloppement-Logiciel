@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "PlayListLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PlayListLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlayListLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayListLib/1.0.0": {
+      "type": "project",
+      "path": "../PlayListLib/PlayListLib.csproj",
+      "msbuildProject": "../PlayListLib/PlayListLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "PlayListLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/jimmy/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/20220528112117_Projet_gestion_listes_chansons_JimmyHFORTIN_2210370/PlayListLib/DataRepoLib/DataRepoLib.csproj",
+      "projectName": "DataRepoLib",
+      "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/20220528112117_Projet_gestion_listes_chansons_JimmyHFORTIN_2210370/PlayListLib/DataRepoLib/DataRepoLib.csproj",
+      "packagesPath": "/home/jimmy/.nuget/packages/",
+      "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/20220528112117_Projet_gestion_listes_chansons_JimmyHFORTIN_2210370/PlayListLib/DataRepoLib/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/jimmy/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/20220528112117_Projet_gestion_listes_chansons_JimmyHFORTIN_2210370/PlayListLib/PlayListLib/PlayListLib.csproj": {
+              "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/20220528112117_Projet_gestion_listes_chansons_JimmyHFORTIN_2210370/PlayListLib/PlayListLib/PlayListLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.108/sdk/6.0.108/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
