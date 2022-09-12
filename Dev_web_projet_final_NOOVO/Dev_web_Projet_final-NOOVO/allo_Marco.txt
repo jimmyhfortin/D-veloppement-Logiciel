@@ -1,0 +1,11 @@
+Allo Marco
+
+Les animations sont :
+
+-Un "fadeInAnimation" à l'ouverture de la page.
+-Bouttons (Inscripion) en bleu plus foncé avec effet 3D lors du clic.
+-Les boutons du menu sont "sticky" au "top"de la page, et ont un effet "fadeInAnimation" qui devient bleu quand ont  laisse la souris sur le texte.
+-Les étoiles tourne de 45deg et change de couleur. 
+-Le contenu populaire est "sticky".
+
+Merci ! 

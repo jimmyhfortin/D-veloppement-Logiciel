@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+/* header */
+header {
+    background-color: #333333;
+    height: 80px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header ul {
+    float: right;
+    padding: 30px;
+    margin-top: -83px;
+}
+header li {
+    font-size: 1.4em;
+    font-weight:400;
+    display:inline; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header li:hover {
+    background-color: #444444;
+    padding-top: 1.4em;
+    padding-bottom: 1.3em;
+}
+.active {
+    background-color: #444444;
+    padding-top: 1.4em;
+    padding-bottom: 1.3em;
+}
+
+/* section vp */
+section.vp {
+    background-image: url(./img/frame.jpg);
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 900px;
+    background-color: lightslategray;
+}
+h1.category {
+    padding-top: 10%;
+    font-size: 50px;
+    max-width: 600px;
+    text-align: center;
+    display: inline-block;
+}
+div.separator {
+    width: 80px;
+    height: 8px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.vp-content, section.vp {
+    text-align: center;
+    color: white;
+}
+p.category {
+    padding-top: 1.5%;
+    text-align: center;
+    max-width: 650px;
+    display: inline-block;
+    line-height: 2.2;
+    font-size: 1.2em;
+}
+.button {
+    border: none;
+    text-align: center;
+    padding: 1em 1.4em;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    margin-top: 2%;
+    font-weight: bold ;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.discover:hover {
+    background-color: black;
+    color: white;
+}
+
+/* section features */
+div.container, div.booking-info {
+    text-align: center;
+    padding: 7%;
+}
+div.feature {
+    width: 50%;
+    float: left;
+    display: inline-block;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    font-size: 1.2em;
+}
+div.feature p {
+    font-size: 1.2em;
+}
+div.feature h2 {
+    font-size: 1.8em;
+    line-height: 2;
+}
+
+/* section booking */
+img.booking-img {
+    object-fit: cover; 
+    display: block;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30em;
+    background-color: lightslategray;
+}
+div.booking-info {
+    margin: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.book, .answer {
+    background-color: black;
+    color: white;
+}
+.book:hover, .answer:hover {
+    background-color: white;
+    color: black;
+}
+.footer {
+    clear: both;
+    position: relative ;
+    width: 100%;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    bottom: 0;
+}
+.abs {
+    position: absolute;
+}
+/* section location */
+div.location {
+    margin-top: 5%;
+}
+img.location-img {
+    height: auto;
+    width: 100%;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+div.feature.place {
+    padding: 0%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+div.feature.picture {
+    padding: 0%;
+    padding-top: 2%;
+    padding-left:20%;
+}
+div.separator-line {
+    width: 400px;
+    height: 2px;
+    background-color: lightgray;
+    margin-bottom: 2%;
+    margin-top: -1%;
+}
+span.circle-b, span.circle-o  {
+    border-radius: 48%;
+    padding: .5% 2%;
+    background: #007ac3;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700 bold;
+}
+span.circle-o {
+    background: #f18b19;
+}
+/* section contact */
+section.form {
+    width: 600px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.contact form {
+    line-height: 3.0;
+}
+div.separator-line.form {
+   width: 100%;
+}
+div.contact form label {
+    font-size: 1.2em;
+    font-weight: 300;
+    font-weight: bold;
+}
+input, textarea {
+    padding:10px;
+    border-radius:3px;
+    width: 100%;
+    border-color: lightgray;
+}
+.answer {
+    padding: 0.2em 1.4em;
+    margin-top: -10%;
+}
