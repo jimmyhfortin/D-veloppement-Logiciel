@@ -1,0 +1,12 @@
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.deps.json
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/bin/Debug/net6.0/Examen1Lib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.AssemblyReference.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.GeneratedMSBuildEditorConfig.editorconfig
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfoInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.AssemblyInfo.cs
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.csproj.CoreCompileInputs.cache
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/refint/Examen1Lib.dll
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/Examen1Lib.pdb
+/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/POO/Examen1_2210370/Examen1Lib/obj/Debug/net6.0/ref/Examen1Lib.dll
