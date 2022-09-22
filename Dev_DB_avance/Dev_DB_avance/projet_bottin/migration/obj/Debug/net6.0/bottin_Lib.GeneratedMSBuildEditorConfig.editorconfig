@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = bottin_Lib
+build_property.ProjectDir = /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/dev_base_de_donnees_avancer/Projet_bottin_JimmyHFORTIN/projet_botin_JimmyHFORTIN/projet_bottin/bottin_Lib/
