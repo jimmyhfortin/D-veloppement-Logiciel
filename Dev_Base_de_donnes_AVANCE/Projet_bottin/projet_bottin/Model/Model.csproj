@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\migration\migration.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="MySql.Data">
+        <HintPath>..\..\..\..\..\..\..\..\..\.nuget\packages\mysql.data\8.0.30\lib\net6.0\MySql.Data.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
