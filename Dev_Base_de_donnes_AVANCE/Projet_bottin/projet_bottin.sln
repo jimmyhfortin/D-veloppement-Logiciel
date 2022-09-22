@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projet_bottin", "projet_bottin\projet_bottin.csproj", "{ABAC8205-BC62-46CF-9E3C-445F8BBAC1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "migration", "migration\migration.csproj", "{E12ABF15-2440-479E-AD1B-4295A04BE0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{3D420D0F-8EAB-4B5A-930A-51EDC8FF5985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABAC8205-BC62-46CF-9E3C-445F8BBAC1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAC8205-BC62-46CF-9E3C-445F8BBAC1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAC8205-BC62-46CF-9E3C-445F8BBAC1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAC8205-BC62-46CF-9E3C-445F8BBAC1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12ABF15-2440-479E-AD1B-4295A04BE0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12ABF15-2440-479E-AD1B-4295A04BE0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12ABF15-2440-479E-AD1B-4295A04BE0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12ABF15-2440-479E-AD1B-4295A04BE0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D420D0F-8EAB-4B5A-930A-51EDC8FF5985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D420D0F-8EAB-4B5A-930A-51EDC8FF5985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D420D0F-8EAB-4B5A-930A-51EDC8FF5985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D420D0F-8EAB-4B5A-930A-51EDC8FF5985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
