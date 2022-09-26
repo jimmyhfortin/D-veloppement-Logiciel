@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+a, a:hover, ul, ol {
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+button {
+    background: transparent;
+    border: none;
+}
+body {
+    background-image: url(../img/class.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.wrapper {
+    display: flex;
+}
+#page {
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    flex-direction: column;
+}
+caption {
+    font-size: 2rem;
+    margin: 1rem;
+}
+#hero {
+    flex-direction: column;
+    width: 70rem;
+    height: 30rem;
+    margin-top: auto;
+    border: solid .1rem black;
+    overflow-y: scroll hidden;
+    background-color: rgba(0,0,0,.8);
+    overflow-x: hidden;
+    border-radius: 1vw;
+}
+th {
+    background-color: rgba(0,0,0,.5);
+    
+}
+td, th, #headtri  {
+    width: 15%;
+    height: 2rem;
+    border: solid .1rem fff;
+    text-align: center;
+}
+
+.green {
+    background-color:  seagreen;
+    border-radius: 1vw;
+}
+.red {
+    background-color: crimson;
+    border-radius: 1vw;
+    animation-name: fade;
+    animation-duration: 10s;
+}
+@keyframes fade {
+    0%   {background-color: seagreen;}
+    25%  {background-color: crimson;}
+    50%  {background-color: red;}
+    100% {background-color: crimson;}
+}
+svg {
+    height: 1rem;
+    margin: .5rem;
+}
+#delete, #ajouter, #Annuler, .fa-solid, .fa-trash {
+    cursor: pointer;
+    margin: .5rem;
+}
+
+#form {
+    flex-direction: row;
+    padding: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 1vw;
+}
+input {
+    border: solid, 0.2rem #fff;
+    border-radius: .2vw;
+    background: none;
+    font-size: 1rem;
+}
+p, #ajouter, #Annuler {
+    padding-left: .2rem;
+    padding-right: .2rem;
+    font-size: 1.2rem;
+}
+p {
+    margin-top: .5rem;
+}
+#theadButton, #idTri {
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="#">
+    <title>Liste etudiant</title>
+</head>
+<body>
+    <div id="page" class="wrapper">
+        <script src="https://kit.fontawesome.com/cf4de32367.js" crossorigin="anonymous"></script>
+        <div id="hero" class="wrapper">
+            <table>
+                <caption>Liste d'étudiants</caption>
+
+                <thead>
+                    <tr>
+                        <th id="triId"><button id="idTri">ID<i class="fa-solid fa-arrow-down-1-9"></i></button></th>
+                        <th>Statut</th>
+                        <th>Nom</th>
+                        <th>Prénom</th>
+                        <th id="headtri"><button id="theadButton" >Résultat</button><button id="up"><i class="fa-solid fa-arrow-up-9-1"></i></button><button id="down"><i class="fa-solid fa-arrow-down-1-9"></i></button></th>
+                        <th>Demande de révision</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th id="moyenne">Moyenne</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        
+        </div>
+        <div id="formulaire">
+            <form id="form" class="wrapper">
+                <p>
+                    <label for="nom"><input type="text" id="nom" name="nom"  minlength="3" autocomplete="off" required placeholder="Nom"/> </label>
+                </p>
+                <p>
+                    <label for="prenom"><input type="text" id="prenom" name="prenom"  minlength="3" autocomplete="off" required placeholder="Prenom"/> </label>
+                </p>
+                <p>
+                    <label for="resultat"><input type="number" id="resultat" name="resultat" input min="0" max="100" autocomplete="off" required placeholder="Resultat"/> </label>
+                </p>
+                <button  id="ajouter" type="submit">Ajouter</button>
+                <button id="Annuler" type="reset" value="cancel">Annuler</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
